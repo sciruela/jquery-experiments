@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="jquery.ui.all.css">
+	<script src="jquery-1.7.2.js"></script>
+	<script src="jquery.ui.core.js"></script>
+	<script src="jquery.ui.widget.js"></script>
+	<script src="jquery.ui.mouse.js"></script>
+	<script src="jquery.ui.draggable.js"></script>
+	<script src="jquery.ui.droppable.js"></script>
+	<link rel="stylesheet" href="demos.css">
+	<style>
+	#draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+    #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+    #draggable3 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+    #draggable4 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+    #draggable5 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+		</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#draggable").click(function(){
+    $(this).hide();
+  });
+  $("#draggable2").click(function(){
+    $(this).hide();
+  });
+  $("#draggable3").click(function(){
+    $(this).hide();
+  });
+  $("#draggable4").click(function(){
+    $(this).hide();
+  });
+  $("#draggable5").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="draggable" class="ui-widget-header">
+	<p>Drag me to my hide me 1</p>
+</div>
+<div id="draggable2" class="ui-widget-header">
+	<p>Drag me to my hide me 2</p>
+</div>
+<div id="draggable3" class="ui-widget-header">
+	<p>Drag me to my hide me 3</p>
+</div>
+<div id="draggable4" class="ui-widget-header">
+	<p>Drag me to my hide me 4</p>
+</div>
+<div id="draggable5" class="ui-widget-header">
+	<p>Drag me to my hide me 5</p>
+</div>
+</body>
+</html>
